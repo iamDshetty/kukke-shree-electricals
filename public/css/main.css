@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+
+}
+.main-header{
+ width:100%;
+ height:3.5rem;
+ background-color:#eecf69;
+ padding:0 1.5rem;
+}
+.main-header-nav{
+height: 100%;
+display:flex;
+align-items: center;
+}
+.main-header-ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+
+.main-header-li{
+margin: 0 1rem;
+    padding: 0;
+}
+.main-header-li a{
+ text-decoration: none;
+    color: black;
+    
+}
+.main-header-li a:hover,
+.main-header-li a:active,
+.main-header-li a.active {
+    color: #020488;
+}
